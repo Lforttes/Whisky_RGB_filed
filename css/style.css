@@ -50,27 +50,32 @@ body{
 article{
     margin: 10px;
     color: white;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.432);
 }
 article h2{
     text-indent: 50px;
-    font-family: var(--font_one);
+    font-family: var(--font_two);
     font-size: 2em;
     text-decoration: underline;
-
 }
 
 article img{
     margin-left: 20px;
     margin-right: 10px;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 370px;
     border-radius: 20px;
     float: left;
-    box-shadow: 1px 1px 5px white;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.637);
 }
 article p{
-    font-family: var(--font_zero);
+    font-family: var(--font_one);
+    font-size: 1.3em;
     margin: 20px;
     text-align: justify;
     text-indent: 20px;
+}
+#picture_float_right{
+    float: right;
 }
