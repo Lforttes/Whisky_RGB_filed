@@ -52,25 +52,21 @@ article{
     color: white;
 }
 article h2{
-padding: 30px;
-}
-
-section{
-    border: 1px solid white;
-    display: block;
-}
-
-article h2{
+    text-indent: 50px;
     font-family: var(--font_one);
     font-size: 2em;
     text-decoration: underline;
+
 }
 
 article img{
     margin-left: 20px;
+    margin-right: 10px;
     width: 350px;
     height: 350px;
     border-radius: 20px;
+    float: left;
+    box-shadow: 1px 1px 5px white;
 }
 article p{
     font-family: var(--font_zero);
@@ -78,5 +74,3 @@ article p{
     text-align: justify;
     text-indent: 20px;
 }
-
-  
