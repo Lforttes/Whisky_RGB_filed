@@ -42,16 +42,42 @@ nav a:hover{
     border-radius: 5px;
 }
 body{
-    height: 100vh;
+    height: 100%;
     background: url(../image/bkbar.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }
 article{
-    border: 1px solid white;
     height: 100vh;
     margin: 10px;
     color: white;
 }
 article h2{
-padding: 30px;}
+padding: 30px;
+}
+
+section{
+    border: 1px solid white;
+    display: block;
+}
+
+article h2{
+    font-family: var(--font_one);
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+article img{
+    margin-left: 20px;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+article p{
+    font-family: var(--font_zero);
+    margin: 20px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+  
